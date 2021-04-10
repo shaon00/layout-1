@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+.header{
+    background-color: aqua;
+    color: black;
+    height: 100px;
+    text-align: center;
+}
+.left-content{
+    width: 50%;
+    background-color: blue;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+.right-content{
+    width: 50%;
+    background-color: chartreuse;
+    height: 400px;
+    float: right;
+    text-align: center;
+}
+.main-content {
+    grid-area: footer;
+    background-color:#2BB961;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 100px 0;
+  }
+  .footer{
+      height: 100px;
+      background-color: brown;
+      text-align: center;
+      
+  }
+    
+
